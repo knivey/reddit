@@ -1,0 +1,15 @@
+{
+  "name": "knivey/reddit",
+  "description": "Amphp Reddit API wrapper",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "knivey\\reddit\\": "src" }
+  },
+  "require": {
+    "php": ">=8.1",
+    "amphp/http-client": "^4.6",
+    "amphp/amp": "^2.6"
+
+  }
+}
