@@ -8,8 +8,11 @@
   },
   "require": {
     "php": ">=8.1",
-    "amphp/http-client": "^4.6",
-    "amphp/amp": "^2.6"
+    "amphp/http-client": "^5.0",
+    "amphp/amp": "^3.0"
 
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.0"
   }
 }
