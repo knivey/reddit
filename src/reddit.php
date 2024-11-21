@@ -90,7 +90,7 @@ class reddit {
      */
     public function info(string $url): Future {
         return Amp\async(function () use ($url) {
-            return $this->getCall("api/info?url=".urlencode($url));
+            return $this->getCall("api/info?url=".urlencode($url))->await();
         });
     }
 }
